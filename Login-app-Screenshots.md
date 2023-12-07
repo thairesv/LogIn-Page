@@ -1,7 +1,8 @@
+Homerwork 3
+-----
 Log in page
 ---
- web application screenshots 
-
+ LogIn page web application screenshots 
 Log-in page working on the local host:
 
 ![image](https://github.com/thairesv/Homework3/assets/145288735/a20dcec7-0023-473a-9aa2-890b83340cfc)
