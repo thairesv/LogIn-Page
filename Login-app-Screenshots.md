@@ -1,6 +1,6 @@
 Homerwork 3
 -----
-Log in page
+LogIn page
 ---
  LogIn page web application screenshots 
 Log-in page working on the local host:
