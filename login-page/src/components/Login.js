@@ -39,6 +39,8 @@ function Login() {
     setPassword(e.target.value);
   };
 
+ 
+
   // If log in succefull show welcome page, if unsuccessful show error page
   if (loggedIn) {
     return (
@@ -55,7 +57,7 @@ function Login() {
       <div className="login-form">
         <h1>Error</h1>
         <p>{error}</p>
-        <button className="back" onClick={() => setError("")}>
+        <button className="back" onClick={handleLogout}>
           Back
         </button>
       </div>
@@ -66,7 +68,7 @@ function Login() {
   return (
     <div className="login-form">
       <h1>Home</h1>
-      <p>Welcome to the Log in Page!</p>
+      <p>Welcome to the LogIn Page!</p>
       <form onSubmit={handleSubmit}>
         <label>
           User Name:
@@ -88,7 +90,6 @@ function Login() {
           />
         </label>
         <br />
-        {error && <div>{error}</div>}
         <button type="submit">Login</button>
       </form>
     </div>
